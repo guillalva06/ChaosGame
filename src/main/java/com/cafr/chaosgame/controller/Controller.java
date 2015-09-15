@@ -37,7 +37,7 @@ public class Controller extends Observable{
         origen = new Point(x, y, Color.GREEN);
         setChanged();
         notifyObservers(origen);
-        System.out.println(origen.getX()+" "+origen.getY()+" "+origen.getColor());
+        //System.out.println(origen.getX()+" "+origen.getY()+" "+origen.getColor());
     }
     
     public void setPoint(Point p){
@@ -84,7 +84,7 @@ public class Controller extends Observable{
             points.addLast(midSeg);
             setChanged();
             notifyObservers(midSeg);
-            System.out.println(i+" "+dice);
+            //System.out.println(i+" "+dice);
         }
         //System.out.println("end");
         
